@@ -1,4 +1,4 @@
-# Dashcore examples
+# Alterdot examples
 
 ## Create and Save a Private Key
 

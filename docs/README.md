@@ -1,13 +1,13 @@
-## Dashcore-lib
+## Alterdot-lib
 
-[![NPM Version](https://img.shields.io/npm/v/@dashevo/dashcore-lib)](https://www.npmjs.com/package/@dashevo/dashcore-lib)
-[![Build Status](https://github.com/dashevo/dashcore-lib/actions/workflows/test_and_release.yml/badge.svg)](https://github.com/dashevo/dashcore-lib/actions/workflows/test_and_release.yml)
-[![Release Date](https://img.shields.io/github/release-date/dashevo/dashcore-lib)](https://github.com/dashevo/dashcore-lib/releases/latest)
+[![NPM Version](https://img.shields.io/npm/v/alterdot-lib)](https://www.npmjs.com/package/alterdot-lib)
+[![Build Status](https://github.com/Alterdot/alterdot-lib/actions/workflows/test_and_release.yml/badge.svg)](https://github.com/Alterdot/alterdot-lib/actions/workflows/test_and_release.yml)
+[![Release Date](https://img.shields.io/github/release-date/Alterdot/alterdot-lib)](https://github.com/Alterdot/alterdot-lib/releases/latest)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen)](https://github.com/RichardLitt/standard-readme)
 
-A pure and powerful JavaScript Dash library.
+A pure and powerful JavaScript Alterdot library.
 
-Dash is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Dash network allows for highly resilient Dash infrastructure, and the developer community needs reliable, open-source tools to implement Dash apps and services.
+Alterdot is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Alterdot network allows for highly resilient Alterdot infrastructure, and the developer community needs reliable, open-source tools to implement Alterdot apps and services.
 
 ### Install
 
@@ -18,7 +18,7 @@ In order to use this library in Node, you will need to add it to your project as
 Having [NodeJS](https://nodejs.org/) installed, just type in your terminal :
 
 ```sh
-npm install @dashevo/dashcore-lib
+npm install alterdot-lib
 ```
 
 ### CDN Standalone
@@ -26,9 +26,9 @@ npm install @dashevo/dashcore-lib
 For browser usage, you can also directly rely on unpkg :
 
 ```
-<script src="https://unpkg.com/@dashevo/dashcore-lib"></script>
+<script src="https://unpkg.com/alterdot-lib"></script>
 ```
 
 ## Licence
 
-[MIT](https://github.com/dashevo/dashcore-lib/blob/master/LICENCE.md) © Dash Core Group, Inc.
+[MIT](https://github.com/Alterdot/alterdot-lib/blob/master/LICENCE.md) © Dash Core Group, Inc.

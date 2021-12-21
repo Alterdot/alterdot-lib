@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <title>Title</title>
-    <!--    <script src="https://unpkg.com/@dashevo/dashcore-lib"></script>-->
-    <script src="../../dist/dashcore-lib.min.js"></script>
+    <!--    <script src="https://unpkg.com/alterdot-lib"></script>-->
+    <script src="../../dist/alterdot-lib.min.js"></script>
     <script>
-      const { PrivateKey } = dashcore;
+      const { PrivateKey } = alterdot;
       const privateKey = new PrivateKey();
       const address = privateKey.toAddress().toString();
       alert(`New private key generated ${privateKey.toString()}`);

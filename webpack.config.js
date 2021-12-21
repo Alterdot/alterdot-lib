@@ -24,8 +24,8 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'dashcore-lib.min.js',
-    library: 'dashcore',
+    filename: 'alterdot-lib.min.js',
+    library: 'alterdot',
     libraryTarget: 'umd',
   },
   optimization: {
