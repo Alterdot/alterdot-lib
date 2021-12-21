@@ -2,7 +2,7 @@
 
 Dashcore provides support for the main Dash network as well as for `testnet3`, the current test blockchain. We encourage the use of `Networks.livenet` and `Networks.testnet` as constants. Note that the library sometimes may check for equality against this object. Please avoid creating a deep copy of this object.
 
-The `Network` namespace has a function, `get(...)` that returns an instance of a `Network` or `undefined`. The only argument to this function is some kind of identifier of the network: either its name, a reference to a Network object, or a number used as a magic constant to identify the network (for example, the value `0x4c` that gives Dash addresses the distinctive `'X'` at its beginning on livenet, is a `0x8c` for testnet).
+The `Network` namespace has a function, `get(...)` that returns an instance of a `Network` or `undefined`. The only argument to this function is some kind of identifier of the network: either its name, a reference to a Network object, or a number used as a magic constant to identify the network (for example, the value `0x1c` that gives Alterdot addresses the distinctive `'C'` at its beginning on livenet, is a `0x8c` for testnet).
 
 ## Regtest
 
@@ -34,15 +34,16 @@ var livenet = new Network();
 _.extend(livenet, {
   name: 'livenet',
   alias: 'mainnet',
-  pubkeyhash: 0x4c,
+  pubkeyhash: 0x1c,
   privatekey: 0xcc,
-  scripthash: 0x10,
+  scripthash: 0x0a,
   xpubkey: 0x488b21e,
   xprivkey: 0x488ade4,
-  networkMagic: 0xbf0c6bbd,
-  port: 9999,
+  networkMagic: 0x2f324551,
+  port: 31000,
 });
 
+// TODO_ADOT_FUTURE left unchanged, not started in Alterdot
 var testnet = new Network();
 _.extend(testnet, {
   name: 'testnet',

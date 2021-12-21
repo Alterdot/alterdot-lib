@@ -23,8 +23,8 @@ describe('Address', function () {
     '3c3fa3d4adcaf8f52d5b1843975e122548269937',
     'hex'
   );
-  var buf = Buffer.concat([Buffer.from([0x4c]), pubkeyhash]);
-  var str = 'XgBQcYbKff4q7cEs7AaxoPN2CAiBbFc2JT';
+  var buf = Buffer.concat([Buffer.from([0x1c]), pubkeyhash]);
+  var str = 'CgBQcYbKff4q7cEs7AaxoPN2CAiBbFc2JT';
 
   it("can't build without data", function () {
     (function () {
