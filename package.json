@@ -116,7 +116,6 @@
   },
   "homepage": "https://github.com/Alterdot/alterdot-lib",
   "dependencies": {
-    "argon2d16k-hash-js": "^1.0.0",
     "@types/node": "^12.12.47",
     "bloom-filter": "^0.2.0",
     "bls-signatures": "^0.2.5",
