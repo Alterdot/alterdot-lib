@@ -1,6 +1,6 @@
 {
   "name": "alterdot-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pure and powerful JavaScript Alterdot library.",
   "author": "alterdot.network",
   "main": "index.js",

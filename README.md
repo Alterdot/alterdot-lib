@@ -151,5 +151,5 @@ Code released under [the MIT license](LICENSE).
 
 Copyright 2013-2017 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.  
 Copyright 2016-2017 The Dash Foundation, Inc.  
-Copyright 2017-2020 Dash Core Group, Inc.
-Copyright 2021 Alterdot Network
+Copyright 2017-2021 Dash Core Group, Inc.
+Copyright 2022 Alterdot Network

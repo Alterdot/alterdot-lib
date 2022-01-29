@@ -31,4 +31,4 @@ For browser usage, you can also directly rely on unpkg :
 
 ## Licence
 
-[MIT](https://github.com/Alterdot/alterdot-lib/blob/master/LICENCE.md) © Dash Core Group, Inc.
+[MIT](https://github.com/Alterdot/alterdot-lib/blob/master/LICENSE)
