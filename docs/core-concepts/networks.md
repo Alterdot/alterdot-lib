@@ -35,7 +35,7 @@ _.extend(livenet, {
   name: 'livenet',
   alias: 'mainnet',
   pubkeyhash: 0x1c,
-  privatekey: 0xcc,
+  privatekey: 0x8c,
   scripthash: 0x0a,
   xpubkey: 0x488b21e,
   xprivkey: 0x488ade4,

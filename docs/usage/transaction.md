@@ -496,3 +496,21 @@ The argument function MUST NOT modify the order of the original array
 | **outputIndex** | Number | yes      |             |
 
 **Returns**: Buffer
+
+## .createBDNSTx(prevTxId, prevOutputIndex, prevSatoshis, ownerAddress, domainName, content, type)
+
+**Description**: Creates a BlockchainDNS transaction.
+
+**Parameters**:
+
+| parameter           | type         | required | Description                                                   |
+| ------------------- | ------------ | -------- | ------------------------------------------------------------- |
+| **prevTxId**        | String       | yes      | Hash of the transaction which contains the output to be spent |
+| **prevOutputIndex** | Number       | yes      | Index of the output to be spent                               |
+| **prevSatoshis**    | Number       | yes      | Amount of Alterdot in satoshis/dots of the output to be spent |
+| **ownerAddress**    | String       | yes      | Destination address of the spent output, owner of domain      |
+| **domainName**      | String       | yes      |                                                               |
+| **content**         | String       | yes      | Content to be saved under domain name.                        |
+| **type**            | Number       | yes      | Type of BDNS transaction (0 for registration, 1 for update)   |
+
+**Returns**: Transaction
